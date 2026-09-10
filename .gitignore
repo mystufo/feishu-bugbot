@@ -1,0 +1,23 @@
+# 敏感配置与本地配置
+.env
+.env.*
+!.env.example
+group_config.json
+*.bak-local
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+
+# 运行产物
+nohup.out
+*.log
+
+# 系统 / 编辑器
+.DS_Store
+.idea/
+.vscode/
